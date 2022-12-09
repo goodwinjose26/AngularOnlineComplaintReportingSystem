@@ -29,6 +29,10 @@ const myRoute:Routes=[
   {
     path:"registration",
     component:RegistrationComponent
+  },
+  {
+    path:"adminhome",
+    component:AdminhomeComponent
   }
 ]
 @NgModule({

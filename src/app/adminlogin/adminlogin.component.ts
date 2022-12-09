@@ -21,7 +21,7 @@ constructor(private route:Router){}
     console.log(data)
 
     if (this.username=="admin" && this.password=="1234") {
-this.route.navigate(["/add"])      
+this.route.navigate(["/adminhome"])      
     } else {
       alert("invalid credentials")
       
