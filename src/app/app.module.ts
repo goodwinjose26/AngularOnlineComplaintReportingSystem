@@ -9,6 +9,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
 const myRoute:Routes=[
   {
     path:
@@ -19,7 +20,8 @@ const myRoute:Routes=[
     AppComponent,
     AdminloginComponent,
     UserloginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
