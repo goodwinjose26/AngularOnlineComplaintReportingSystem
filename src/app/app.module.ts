@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileviewComponent } from './profileview/profileview.component';
+import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
+import { AdminhomeComponent } from './adminhome/adminhome.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -36,7 +38,9 @@ const myRoute:Routes=[
     UserloginComponent,
     RegistrationComponent,
     NavbarComponent,
-    ProfileviewComponent
+    ProfileviewComponent,
+    AdminnavbarComponent,
+    AdminhomeComponent
   ],
   imports: [
     BrowserModule,
