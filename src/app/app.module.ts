@@ -13,7 +13,20 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileviewComponent } from './profileview/profileview.component';
 const myRoute:Routes=[
   {
-    path:
+    path:"",
+    component:AdminloginComponent
+  },
+  {
+    path:"profileview",
+    component:ProfileviewComponent
+  },
+  {
+    path:"userlogin",
+    component:UserloginComponent
+  },
+  {
+    path:"registration",
+    component:RegistrationComponent
   }
 ]
 @NgModule({
