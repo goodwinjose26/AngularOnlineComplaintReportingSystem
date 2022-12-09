@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProfileviewComponent } from './profileview/profileview.component';
 const myRoute:Routes=[
   {
     path:
@@ -21,7 +22,8 @@ const myRoute:Routes=[
     AdminloginComponent,
     UserloginComponent,
     RegistrationComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProfileviewComponent
   ],
   imports: [
     BrowserModule,
