@@ -15,6 +15,7 @@ import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { ComplaintComponent } from './complaint/complaint.component';
 import { MycomplaintComponent } from './mycomplaint/mycomplaint.component';
+import { AllcomplaintComponent } from './allcomplaint/allcomplaint.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -39,6 +40,10 @@ const myRoute:Routes=[
   {
     path:"addcomplaint",
     component:ComplaintComponent
+  },
+  {
+    path:"viewallcomplaint",
+    component:AllcomplaintComponent
   }
 ]
 @NgModule({
@@ -52,7 +57,8 @@ const myRoute:Routes=[
     AdminnavbarComponent,
     AdminhomeComponent,
     ComplaintComponent,
-    MycomplaintComponent
+    MycomplaintComponent,
+    AllcomplaintComponent
   ],
   imports: [
     BrowserModule,
