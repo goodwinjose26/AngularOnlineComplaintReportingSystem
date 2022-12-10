@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileviewComponent } from './profileview/profileview.component';
 import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
+import { ComplaintComponent } from './complaint/complaint.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -33,6 +34,10 @@ const myRoute:Routes=[
   {
     path:"adminhome",
     component:AdminhomeComponent
+  },
+  {
+    path:"addcomplaint",
+    component:ComplaintComponent
   }
 ]
 @NgModule({
@@ -44,7 +49,8 @@ const myRoute:Routes=[
     NavbarComponent,
     ProfileviewComponent,
     AdminnavbarComponent,
-    AdminhomeComponent
+    AdminhomeComponent,
+    ComplaintComponent
   ],
   imports: [
     BrowserModule,

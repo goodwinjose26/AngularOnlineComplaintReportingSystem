@@ -37,4 +37,11 @@ export class ApiService {
     return this.http.post("http://localhost:8080/profileview",dataToSend)
   }
 
+  addcomplaint=(dataToSend:any)=>
+  {
+    return this.http.post("http://localhost:8080/addcomplaint",dataToSend)
+  }
+
+  
+
 }
