@@ -44,6 +44,10 @@ const myRoute:Routes=[
   {
     path:"viewallcomplaint",
     component:AllcomplaintComponent
+  },
+  {
+    path:"mycomplaint",
+    component:MycomplaintComponent
   }
 ]
 @NgModule({
