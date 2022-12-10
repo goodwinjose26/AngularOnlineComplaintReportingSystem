@@ -8,19 +8,7 @@ export class ApiService {
 
 
   constructor(private http:HttpClient) { }
-  addproduct=(datatosend:any)=>
-  {
-    return this.http.post("http://localhost:8080/add",datatosend)
-  }
-  viewproduct =()=>
-  {
-    return this.http.get("http://localhost:8080/view")
-  }
-
-  searchproduct=(datatosend:any)=>
-  {
-    return this.http.post("http://localhost:8080/search",datatosend)
-  }
+  
   regValues=(datatosend:any)=>
   {
     return this.http.post("http://localhost:8080/reg",datatosend)
@@ -40,6 +28,11 @@ export class ApiService {
   addcomplaint=(dataToSend:any)=>
   {
     return this.http.post("http://localhost:8080/addcomplaint",dataToSend)
+  }
+
+  viewcomplaint =()=>
+  {
+    return this.http.get("http://localhost:8080/viewallcomplaint")
   }
 
   
