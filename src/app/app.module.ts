@@ -14,6 +14,7 @@ import { ProfileviewComponent } from './profileview/profileview.component';
 import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { ComplaintComponent } from './complaint/complaint.component';
+import { MycomplaintComponent } from './mycomplaint/mycomplaint.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -50,7 +51,8 @@ const myRoute:Routes=[
     ProfileviewComponent,
     AdminnavbarComponent,
     AdminhomeComponent,
-    ComplaintComponent
+    ComplaintComponent,
+    MycomplaintComponent
   ],
   imports: [
     BrowserModule,
