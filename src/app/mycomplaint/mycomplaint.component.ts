@@ -8,11 +8,11 @@ import { ApiService } from '../api.service';
 })
 export class MycomplaintComponent {
 
-  userid2:any=""
+  userid:any=""
   constructor(private api:ApiService){
-     this.userid2=localStorage.getItem("userInfo")
+     this.userid=localStorage.getItem("userInfo")
  let data:any=
- {"id2":this.userid2}
+ {"userid":this.userid}
      this.api.mycomplaint(data).subscribe(
       (response:any)=>
       {
